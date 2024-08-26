@@ -11,7 +11,7 @@ function Home() {
           Good designs come with <i>practice</i>; Great designs come from the
           <em> soul.</em>
         </h3>
-        <p>
+        <p className="welcome-Message">
           Welcome to EZK graphics, where creativity meets precision. We
           specializing in CAD graphics, we transform ideas into stunning visual
           realities through our expertise in both 2D and 3D design.Whether
