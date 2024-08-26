@@ -8,7 +8,7 @@ function Home() {
       <div className="content">
         <h1 className="header">EZK Graphics</h1>
         <h3>
-          Good designs come with <i>practice</i>; great designs come from the
+          Good designs come with <i>practice</i>; Great designs come from the
           <em> soul.</em>
         </h3>
         <p>
@@ -22,7 +22,7 @@ function Home() {
         </p>
         <button className="contact-btn">Let's Connect</button>
       </div>
-      <img src={logo} />
+      <img src={logo} className="home-logo" />
     </div>
   );
 }

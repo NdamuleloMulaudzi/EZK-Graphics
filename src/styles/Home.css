@@ -1,9 +1,52 @@
+* {
+  overflow-x: hidden;
+}
 .home {
+  width: 100%;
+  height: auto;
   background-color: white;
   margin: 25px;
   display: flex;
-  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
 }
-img {
-  width: 400px;
+.home-logo {
+  width: 350px;
+  position: relative;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #173b45;
+  text-decoration: double #173b45 underline;
+  font-size: 3.4em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #ffaf00;
+  margin-bottom: 20px;
+}
+em {
+  font-weight: 700;
+  color: #808d7c;
+}
+p {
+  font-size: 1.3em;
+  width: 600px;
+  margin-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: #173b45;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+button:hover {
+  cursor: pointer;
+  color: #173b45;
+  background-color: #ffaf00;
 }
