@@ -1,6 +1,10 @@
 * {
   overflow-x: hidden;
 }
+@font-face {
+  font-family: RubikLines;
+  src: url(../fonts/RubikLines-Regular.ttf);
+}
 .home {
   width: 100%;
   height: auto;
@@ -20,6 +24,7 @@
   color: #173b45;
   text-decoration: double #173b45 underline;
   font-size: 3.4em;
+  font-family: RubikLines;
 }
 
 h3 {
