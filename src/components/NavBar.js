@@ -13,16 +13,9 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className="navbar" id={expandNavbar ? "open" : "close"}>
+    <nav className="navbar">
       <div className="logo">
         <img src={logo} />
-      </div>
-      <div className="toggleButton">
-        <button
-          onClick={() => {
-            setExpandNavbar(!expandNavbar);
-          }}
-        ></button>
       </div>
 
       <div className="links">

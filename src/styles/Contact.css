@@ -1,0 +1,49 @@
+.form-container {
+  background-color: #393e46;
+  padding: 20px;
+  background-image: url(../assets/service-5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-container > h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+label {
+  font-size: 1.3em;
+  color: black;
+}
+.input {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 20px;
+  justify-content: center;
+}
+#form-btn {
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#form-btn:hover {
+  background-color: transparent;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+textarea {
+  width: 400px;
+}
