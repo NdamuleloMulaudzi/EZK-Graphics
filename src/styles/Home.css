@@ -1,0 +1,9 @@
+.home {
+  background-color: white;
+  margin: 25px;
+  display: flex;
+  padding: 50px;
+}
+img {
+  width: 400px;
+}
