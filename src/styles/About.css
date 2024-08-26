@@ -12,6 +12,7 @@
   text-align: center;
   padding: 20px;
   display: block;
+  text-wrap: wrap;
 }
 .about .who-we-are {
   color: White;

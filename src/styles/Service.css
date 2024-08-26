@@ -1,0 +1,64 @@
+.container {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  text-align: center;
+  color: #26355d;
+  background-color: rgb(220, 217, 211);
+  border-radius: 20px;
+}
+.service > h2 {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: red;
+  margin: 25px 30px;
+  text-align: center;
+  padding: 20px;
+}
+.card h2 {
+  margin-bottom: 15px;
+}
+.card ul {
+  list-style: circle;
+}
+.card1 {
+  background-color: #26355d;
+  color: antiquewhite;
+}
+.card2 {
+  background-color: #686d76;
+  color: #eeeeee;
+}
+.card3 {
+  background-color: #eeeeee;
+  color: #26355d;
+}
+.card3 li {
+  color: #26355d;
+}
+.card2 li {
+  color: #eeeeee;
+}
+.card1 li {
+  color: antiquewhite;
+}
+
+.card p {
+  text-align: start;
+  width: auto;
+}
+
+.img-container {
+  display: flex;
+  gap: 20px;
+}
+.img-container img {
+  width: 200px;
+}
