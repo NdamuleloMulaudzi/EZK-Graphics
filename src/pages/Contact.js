@@ -4,7 +4,7 @@ import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <div className="form-container">
         <h1>LET'S CONNECT!</h1>
         <form action="info@ezkgraphics.co.za" id="form">

@@ -9,7 +9,7 @@
 .service {
   text-align: center;
   color: #26355d;
-  background-color: rgb(220, 217, 211);
+  background-color: white;
   border-radius: 20px;
 }
 .service > h2 {

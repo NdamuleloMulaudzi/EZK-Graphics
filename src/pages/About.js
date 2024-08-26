@@ -4,7 +4,7 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div class="about-content">
         <div class="headings">
           <h3 className="who-we-are">Who we are</h3>
@@ -67,10 +67,10 @@ function About() {
           </p>
         </div>
         <div className="designer">
-          <h2>Meet our Designer</h2>
+          <h2>Meet our Founder and Lead Designer</h2>
 
           <img src={founder} alt="Our Designer" />
-          <p className="designer-name">Chantel Sam</p>
+          <p className="designer-name">Ms Sam</p>
         </div>
       </div>
     </div>

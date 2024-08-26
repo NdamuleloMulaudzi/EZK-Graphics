@@ -1,8 +1,13 @@
+@font-face {
+  font-family: Lilita;
+  src: url(../fonts/LilitaOne-Regular.ttf);
+}
 .navbar {
   width: 100%;
   height: 100px;
   background: #cad2e6;
   display: flex;
+  font-family: Lilita;
 }
 .logo {
   margin: 0;

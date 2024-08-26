@@ -8,7 +8,7 @@ import "../styles/Service.css";
 
 function Service() {
   return (
-    <div className="service">
+    <div className="service" id="service">
       <h2>What we do</h2>
       <h1>OUR SERVICES INCLUDES</h1>
       <div className="container">
