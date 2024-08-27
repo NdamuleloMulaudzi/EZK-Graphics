@@ -47,3 +47,46 @@ h4 {
 .designer-name {
   color: #f4eded;
 }
+
+@media only screen and (max-width: 600px) {
+  .about {
+    background-color: #393e46;
+    color: White;
+    text-align: center;
+    padding: 2px;
+    text-overflow: inherit;
+  }
+  .about .who-we-are {
+    color: White;
+    margin: 0;
+  }
+  .mission {
+    margin-top: 20px;
+  }
+  .sub-content {
+    margin-top: 20px;
+  }
+  .sub-heading {
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 1.2em;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h4 {
+    font-family: babasNue;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+  }
+
+  .designer {
+    margin-top: 20px;
+  }
+  .designer-name {
+    color: #f4eded;
+  }
+}

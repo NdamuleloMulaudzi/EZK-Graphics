@@ -52,3 +52,27 @@ button:hover {
   color: #173b45;
   background-color: #ffaf00;
 }
+
+@media only screen and (max-width: 600px) {
+  .home {
+    margin: 0;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .welcome-Message {
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    padding: 20p0x;
+  }
+  .contact-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+  .content {
+    margin: 20px auto; /* Centering content */
+  }
+  .home-logo {
+    display: none;
+  }
+}
