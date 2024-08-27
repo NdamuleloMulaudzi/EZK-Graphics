@@ -49,6 +49,9 @@
 .card1 li {
   color: antiquewhite;
 }
+.card3 > img {
+  width: 300px;
+}
 
 .card p {
   text-align: start;
@@ -63,11 +66,65 @@
   width: 200px;
 }
 
-@media only screen and (max-width: 600px) {
+/* Media Query for Tablets and Mobile Devices */
+@media only screen and (max-width: 768px) {
   .container {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    padding: 20px; /* Reduce padding */
+    gap: 15px; /* Adjust gap for smaller screens */
+  }
+
+  .card {
+    margin: 15px auto; /* Center card margins */
+    width: 90%; /* Make the card take most of the screen width */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .service > h2,
+  .service > h1 {
+    font-size: 1.5em; /* Adjust font size for better readability */
+  }
+
+  .card h2 {
+    font-size: 1.2em; /* Adjust card heading font size */
+  }
+
+  .card p {
+    font-size: 1em; /* Adjust paragraph font size */
+  }
+
+  .img-container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .service {
+    padding: 15px; /* Further reduce padding for smaller screens */
+  }
+
+  .card {
+    margin: 10px auto; /* Center card margins */
+    width: 100%; /* Full width for the smallest screens */
+    padding: 10px; /* Minimal padding for smallest screens */
+  }
+
+  .service > h2,
+  .service > h1 {
+    font-size: 1.2em; /* Further reduce font size for very small screens */
+  }
+
+  .card h2 {
+    font-size: 1.1em; /* Adjust card heading font size for smallest screens */
+  }
+
+  .card p {
+    font-size: 0.9em; /* Smaller paragraph font size */
+  }
+
+  .img-container img {
+    width: 90%; /* Slight margin for images */
+    height: auto;
   }
 }

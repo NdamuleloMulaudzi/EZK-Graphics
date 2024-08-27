@@ -4,46 +4,110 @@
   background-image: url(../assets/service-5.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center; /* Center text for better mobile layout */
 }
+
 .form-container > h1 {
   margin-bottom: 20px;
   text-align: center;
+  color: white; /* Ensure visibility on dark background */
 }
+
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* Center form items */
   flex-wrap: wrap;
 }
+
 label {
-  font-size: 1.3em;
-  color: black;
+  font-size: 1.1em; /* Slightly smaller font size for mobile readability */
+  color: white; /* Change to white for better contrast */
+  margin-bottom: 5px; /* Add spacing below label */
 }
+
 .input {
   display: flex;
-  width: 50%;
+  width: 90%; /* Use a percentage for fluid responsiveness */
+  max-width: 400px; /* Limit the max width */
   justify-content: center;
   flex-direction: column;
   margin-bottom: 20px;
 }
-input {
-  width: 400px;
-  height: 40px;
-  border-radius: 7px;
-  font-size: 20px;
-  justify-content: center;
-}
-#form-btn {
-  background-color: transparent;
-  font-size: 20px;
-}
 
-#form-btn:hover {
-  background-color: transparent;
-  font-size: 20px;
-  color: blanchedalmond;
+input,
+textarea {
+  width: 90%; /* Use percentage for responsive width */
+  max-width: 400px; /* Limit max width */
+  height: 20px;
+  border-radius: 7px;
+  font-size: 18px; /* Adjust font size */
+  padding: 10px; /* Add padding for better usability */
+  margin: 0 auto; /* Center input fields */
 }
 
 textarea {
-  width: 400px;
+  height: auto;
+  padding: 10px;
+  resize: vertical; /* Allow vertical resizing for better UX */
+}
+
+#form-btn {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid white; /* Add a border for better visibility */
+  color: white; /* Ensure button text is visible */
+  border-radius: 7px; /* Add border radius for consistent design */
+  margin-top: 15px; /* Add margin for spacing */
+}
+
+#form-btn:hover {
+  background-color: #ffaf00; /* Add background color on hover for better UX */
+  color: #173b45; /* Change color on hover */
+}
+
+@media only screen and (max-width: 768px) {
+  .form-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  label {
+    font-size: 1em; /* Adjust label font size */
+  }
+
+  input,
+  textarea {
+    width: 95%; /* Increase width to use more screen space */
+    max-width: 100%; /* Remove max width limit */
+    font-size: 16px; /* Further adjust font size */
+  }
+
+  #form-btn {
+    font-size: 18px; /* Adjust button text size */
+    padding: 8px 15px; /* Adjust padding for better fit */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form-container {
+    padding: 10px; /* Further reduce padding for very small screens */
+  }
+
+  label {
+    font-size: 0.9em; /* Further adjust label font size */
+  }
+
+  input,
+  textarea {
+    width: 100%; /* Full width for small devices */
+    font-size: 14px; /* Smaller font size for very small screens */
+    padding: 8px; /* Adjust padding for better fit */
+  }
+
+  #form-btn {
+    font-size: 16px; /* Smaller font size for very small screens */
+    padding: 6px 12px; /* Further adjust padding */
+  }
 }

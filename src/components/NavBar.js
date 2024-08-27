@@ -19,6 +19,7 @@ function Navbar() {
       </div>
 
       <div className="links">
+        <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="#service">WHAT WE DO</a>
 

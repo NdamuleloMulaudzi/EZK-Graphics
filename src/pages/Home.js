@@ -11,18 +11,17 @@ function Home() {
           Good designs come with <i>practice</i>; Great designs come from the
           <em> soul.</em>
         </h3>
-        <div className="text">
-          <p className="welcome-Message">
-            Welcome to EZK graphics, where creativity meets precision. We
-            specializing in CAD graphics, we transform ideas into stunning
-            visual realities through our expertise in both 2D and 3D
-            design.Whether you're dreaming up a groundbreaking architectural
-            marvel or crafting intricate product details, we bring your visions
-            to life with unparalleled accuracy and artistry. At EZK Graphics, we
-            don’t just create designs—we craft experiences that captivate and
-            inspire!
-          </p>
-        </div>
+
+        <p className="welcome-Message">
+          Welcome to EZK graphics, where creativity meets precision. We
+          specializing in CAD graphics, we transform ideas into stunning visual
+          realities through our expertise in both 2D and 3D design.Whether
+          you're dreaming up a groundbreaking architectural marvel or crafting
+          intricate product details, we bring your visions to life with
+          unparalleled accuracy and artistry. At EZK Graphics, we don’t just
+          create designs—we craft experiences that captivate and inspire!
+        </p>
+
         <button className="contact-btn">Let's Connect</button>
       </div>
       <img src={logo} className="home-logo" />

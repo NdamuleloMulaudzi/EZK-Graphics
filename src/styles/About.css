@@ -48,45 +48,50 @@ h4 {
   color: #f4eded;
 }
 
-@media only screen and (max-width: 600px) {
-  .about {
-    background-color: #393e46;
-    color: White;
-    text-align: center;
-    padding: 2px;
-    text-overflow: inherit;
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1em; /* Smaller font size for better readability */
+    width: 90%; /* Reduce width for smaller screens */
   }
-  .about .who-we-are {
-    color: White;
-    margin: 0;
+
+  .about-content {
+    padding: 10px; /* Reduce padding */
   }
-  .mission {
-    margin-top: 20px;
-  }
-  .sub-content {
-    margin-top: 20px;
-  }
+
   .sub-heading {
-    margin-bottom: 5px;
+    font-size: 1.2em; /* Adjust sub-heading font size */
+  }
+
+  .designer img {
+    width: 80%; /* Make designer image responsive */
+    height: auto;
+    margin-top: 20px;
+  }
+
+  h1,
+  h3,
+  h4 {
+    font-size: 1.5em; /* Adjust heading sizes for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1,
+  h3,
+  h4 {
+    font-size: 1.2em; /* Further adjust heading sizes for very small screens */
+  }
+
+  .designer img {
+    width: 70%; /* Smaller image size for very small screens */
+    height: auto;
   }
 
   p {
-    font-size: 1.2em;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 0.9em; /* Smaller font size for very small screens */
   }
 
-  h4 {
-    font-family: babasNue;
-    font-size: 1.4em;
-    letter-spacing: 2px;
-  }
-
-  .designer {
-    margin-top: 20px;
-  }
-  .designer-name {
-    color: #f4eded;
+  .sub-heading {
+    font-size: 1em; /* Smaller font size for sub-headings */
   }
 }

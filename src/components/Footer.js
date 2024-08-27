@@ -11,8 +11,8 @@ function Footer() {
         </div>
 
         <div class="footer-links">
-          <a href="/about-us">About Us</a> |<a href="/services">Services</a> |{" "}
-          <a href="/contact">Contact</a>
+          <a href="#about">About Us</a> |<a href="#services">Services</a> |{" "}
+          <a href="#contact">Contact</a>
         </div>
 
         <div class="footer-social">
@@ -26,10 +26,10 @@ function Footer() {
         </div>
 
         <div class="footer-contact">
-          <p>42 Meeide, Leen Sreet, Imaginary Pretoria</p>
+          <p>42 Meeide, Leen Sreet, Pretoria</p>
           <p>
-            Email:{"info@ezkgraphics.com"}
-            <a href="mailto:info@ezkgraphics.com">info@ezkgraphics.com</a> |
+            Email:{""}
+            <a href="mailto:info@ezkgraphics.com">info@ezkgraphics.com</a>|
             Phone: +27-822-851-332
           </p>
         </div>

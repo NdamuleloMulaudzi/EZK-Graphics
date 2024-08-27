@@ -44,4 +44,30 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .footer-links a,
+  .footer-social a,
+  .footer-contact a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .footer-links a:hover,
+  .footer-social a:hover,
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-social {
+    margin-bottom: 20px;
+  }
+
+  .footer-contact {
+    margin-bottom: 20px;
+  }
+
+  .footer p {
+    margin-left: auto;
+  }
 }
